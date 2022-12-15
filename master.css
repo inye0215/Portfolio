@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+/**---전 항목 공통---**/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+
+.wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+/**---네비게이션 적용(웹)---**/
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+}
+.menubar{
+    width: 1100px;
+    height: 94px;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-right: 143px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.menu{
+    width: 150px;
+    height: 40px;
+    border: 0px solid green;
+    text-align: center;
+    margin-top: 30px;
+}
+.menu > a{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.menu > a:hover{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+.top_bt{
+    background-image: url(img/top_bt_1.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 80px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    border: 0px solid red;
+}
+
+
+.top_bt:hover{
+    background-image: url(img/top_bt_2.png);
+}
+
+
+
+
+
+/**---메인화면---**/
+.box{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box1{background-image: url(img/web_bg.png);}
+
+
+
+
+
+
+/**---스크롤---**/
+.scroll{
+    margin-top: 36px;
+    margin-bottom: 183px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/**---프로필 영역---**/
+.web_profile{
+    
+    margin-bottom: 118px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.web_profile_cont{
+
+    margin-bottom: 240px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/**---작업물 영역---**/
+.web_works{
+    margin-bottom: 111px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/**---패키지---**/
+.web_pac{
+
+    display: flex;
+    justify-content: center;
+}
+
+.web_01{
+    margin-bottom: 284px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/**---아이덴티티---**/
+.web_iden{
+
+    display: flex;
+    justify-content: center;
+}
+
+.web_02{
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.web_03{
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.web_04{
+    margin-bottom: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/**---유아이유엑스---**/
+.web_uiux{
+    display: flex;
+    justify-content: center;
+}
+
+.web_05{
+    margin-bottom: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/**---편집---**/
+.web_edit{
+    display: flex;
+    justify-content: center;
+}
+
+.web_06{
+    margin-bottom: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/**---푸터 적용 (공통)---**/
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1C5ABE;
+}
+.footer_img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid red;
+}
+.logo_position{
+    width: 1100px;
+    height: 60px;
+    margin-top: 13px;
+    border: 0px solid red;
+}
+
+
+
+
+
+
+
+.m_main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.m_scroll{
+    margin-top: 30px;
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.m_pro{
+    margin-bottom: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.m_about{
+    margin-bottom: 73px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_works{
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_pack{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_01{
+    margin-bottom: 97px;
+    display: flex;
+    justify-content: center;
+}  
+
+
+
+
+
+
+
+.m_iden{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.m_02{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_03{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_04{
+    margin-bottom: 97px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.m_uiux{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_05{
+    margin-bottom: 97px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.m_web{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.m_06{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.m_footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }</script>
+</head>
+<body>
+    <!--상단바-->
+    <div class="nav">
+        <ul class="menubar">
+            <li class="logo"><a><img src="img/logo.png"></a></li>
+            <li class="menu menu01">
+                <a onclick="fnMove('1')">PROFILE</a></li>
+            <li class="menu menu02">
+                <a onclick="fnMove('2')">PACKAGE</a></li>
+            <li class="menu menu03">
+                <a onclick="fnMove('3')">IDENTITY</a></li>
+            <li class="menu menu04">
+                <a onclick="fnMove('4')">UI/UX</a></li>
+            <li class="menu menu04">
+                <a onclick="fnMove('5')">EDITORIAL</a></li>
+        </ul>
+    </div>
+
+
+    
+    <!--메인화면-->
+
+    <div class="box box1" id="anchor6"></div>
+
+
+
+
+    <!--스크롤 요소-->
+    <div class="scroll">
+        <img src="img/web_scroll.png">
+    </div>
+
+
+
+
+    <!--프로필 영역-->
+    <div class="web_profile" id="anchor1">
+        <img src="img/web_profile.png">
+    </div>
+
+
+    <div class="web_profile_cont">
+        <img src="img/web_profile_cont.png">
+    </div>
+
+
+
+
+    <!--작업물 영역-->
+    <div class="web_works">
+        <img src="img/web_works.png">
+    </div>
+
+
+
+    <!--패키지-->
+    <div class="web_pac" id="anchor2">
+        <img src="img/web_pac.png">
+    </div>
+
+    <div class="web_01">
+        <img src="img/web_01.png">
+    </div>
+
+
+
+
+
+    <!--아이덴티티-->
+    <div class="web_iden" id="anchor3">
+        <img src="img/web_pac.png">
+    </div>
+
+
+    <div class="web_02">
+        <img src="img/web_02.png">
+    </div>
+
+    <div class="web_03">
+        <img src="img/web_03.png">
+    </div>
+
+    <div class="web_04">
+        <img src="img/web_04.png">
+    </div>
+
+
+
+
+    <!--유아이유엑스-->
+    <div class="web_uiux" id="anchor4">
+        <img src="img/web_ui.png">
+    </div>
+
+    <div class="web_05">
+        <img src="img/web_05.png">
+    </div>
+
+
+
+
+    <!--편집-->
+    <div class="web_edit" id="anchor5">
+        <img src="img/web_edit.png">
+    </div>
+
+    <div class="web_06">
+        <img src="img/web_06.png">
+    </div>
+
+
+
+
+    <!--푸터 영역-->
+    <footer>
+        <div class="footer_img">
+            <div class="logo_position">
+                <img src="img/web_footer.png">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <a onclick="fnMove('6')"><div class="top_bt"></div></a>
+
+    <script type="text/javascript" src="smooth_scroll.js"></script>
+    <script>
+      function fnMove(seq){
+          var offset = $("#anchor" + seq).offset();
+          $('html, body').animate({scrollTop : offset.top},1000);
+      }
+    </script>
+
+
+
+</body>
+</html>
